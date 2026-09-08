@@ -33,4 +33,3 @@ p2, f2 = inspect_board("PCB-02", defect_log, 4.80, 5.01, line="L3", batch="B12")
 
 print(f"PCB-01 -> Passed: {p1}, Failed: {f1}")
 print(f"PCB-02 -> Passed: {p2}, Failed: {f2}")
-print("Shared defect log:", defect_log)
